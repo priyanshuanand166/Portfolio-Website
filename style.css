@@ -337,3 +337,54 @@ section .title::after
     background: none;
 }
 
+/* EDUCATION */
+.education .title::after
+{
+    background: #111;
+    content: "my-education";
+}
+
+.education .serv-content .card
+{
+    width: calc(33% - 20px);
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.education .serv-content .card:hover
+{
+    background: crimson;
+}
+
+.education .serv-content .card .box
+{
+    transition: all 0.3s ease;
+}
+
+.education .serv-content .card:hover .box
+{
+    transform: scale(1.05);
+}
+
+.education .serv-content .card i
+{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+
+.education .serv-content .card:hover i
+{
+    color: #fff;
+}
+
+.education .serv-content .card .text
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
