@@ -70,7 +70,7 @@
     .about .about-content .right {
       flex: 100%;
     }
-    .experience .serv-content .card {
+     .experience .serv-content .card {
       width: calc(50% - 10px);
       margin-bottom: 20px;
     }
@@ -124,5 +124,13 @@
       width: 35px;
       font-size: 23px;
       line-height: 38px;
+    }
+  }
+
+  @media (max-width: 415px) {
+    .education .serv-content .card
+    {
+        width: 100%;
+        margin-block: 20px;
     }
   }
