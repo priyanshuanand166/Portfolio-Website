@@ -1,12 +1,13 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-
+       
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
         }
-
+        
+        
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
         }else{
@@ -14,36 +15,39 @@ $(document).ready(function(){
         }
     });
 
+    
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
-
+        
         $('html').css("scrollBehavior", "auto");
     });
 
     $('.navbar .menu li a').click(function(){
-
+        
         $('html').css("scrollBehavior", "smooth");
     });
 
+    
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
-    var typed = new Typed(".typing",{
+    var typed = new Typed(".typing", {
         strings: ["Student", "Web-Developer", "Technical content writer", "UI Designer", "Competitive Programmer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-2",{
+    var typed = new Typed(".typing-2", {
         strings: ["Student", "Web-Developer", "Technical content writer", "UI Designer", "Competitive Programmer"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true 
+        loop: true
     });
 
+    
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
@@ -59,7 +63,7 @@ $(document).ready(function(){
                 nav: false
             },
             1000:{
-                items:3,
+                items: 3,
                 nav: false
             }
         }
