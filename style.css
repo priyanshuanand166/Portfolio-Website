@@ -390,7 +390,8 @@ section .title::after
 }
 
 /* EXPERIENCE */
-.experience, .achievements
+.experience, 
+.achievements
 {
     color: #fff;
     background: #111;
@@ -640,7 +641,7 @@ section .title::after
     border-radius: 14px;
 }
 
-.owl-dot.active,
+.owl-dot .active,
 .owl-dot:hover
 {
     background: crimson !important;
