@@ -125,6 +125,9 @@
       font-size: 23px;
       line-height: 38px;
     }
+    .about .about-content .right .text span {
+      color: rgb(67, 220, 20);
+    }
   }
 
   @media (max-width: 415px) {
@@ -132,5 +135,8 @@
     {
         width: 100%;
         margin-block: 20px;
+    }
+    .about .about-content .right .text span {
+      color: rgb(67, 220, 20);
     }
   }
