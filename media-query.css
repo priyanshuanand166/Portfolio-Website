@@ -97,6 +97,9 @@
     .experience .serv-content .card {
       width: 100%;
     }
+    .about .about-content .right .text span {
+      color: rgb(67, 220, 20);
+    }
   }
   
   @media (max-width: 500px) {
