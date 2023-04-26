@@ -7,7 +7,9 @@
   text-decoration: none;
 }
 body {
-  background-image: url("https://cdn.glitch.com/6ae7a7fc-8884-4ea6-827b-8a1edaa47a61%2Fwp3144268-color-gradient-wallpapers.jpg?v=1610515441699");
+  /* background-image: url("https://cdn.glitch.com/6ae7a7fc-8884-4ea6-827b-8a1edaa47a61%2Fwp3144268-color-gradient-wallpapers.jpg?v=1610515441699"); */
+  /* background-color: #111; */
+  background-image: url("https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 }
 html {
   scroll-behavior: smooth;
@@ -95,7 +97,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: black;
+  background: rebeccapurple;
 }
 .navbar .max-width {
   display: flex;
@@ -257,7 +259,7 @@ section .title::after {
 }
 
 .education .title::after {
-  background: #111;
+  /* background: #111; */
   content: "my-education";
 }
 .education .serv-content .card {
@@ -292,11 +294,11 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
-.experience,
+/* .experience,
 .achievements {
   color: #fff;
   background: #111;
-}
+} */
 .experience .title::before,
 .achievements .title::before,
 .contact .title::before {
@@ -305,12 +307,12 @@ section .title::after {
 
 .experience .title::after,
 .achievements .title::after {
-  background: #111;
+  /* background: #111; */
   content: "what i have done";
 }
 .experience .serv-content .card {
   width: calc(33% - 20px);
-  background: #222;
+  background: white;
   text-align: center;
   border-radius: 6px;
   padding: 20px 25px;
@@ -417,7 +419,7 @@ section .title::after {
   content: "acheived so far";
 }
 .achievements .carousel .card {
-  background: #222;
+  background: white;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -476,7 +478,7 @@ section .title::after {
 }
 
 .contact {
-  background-color: #111;
+  /* background-color: #111; */
 }
 .contact .title::after {
   content: "get in touch";
@@ -491,7 +493,7 @@ section .title::after {
 }
 
 footer {
-  background: #111;
+  /* background: #111; */
   padding: 15px 23px;
   color: #fff;
   text-align: center;
